@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anılarımız</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Arka plan rengi soft siyah */
+            color: #fff; /* Yazı rengi beyaz */
+            line-height: 1.6; /* Yazılar arası boşluk ayarı */
+        }
+        header {
+            background-color: #1a1a1a; /* Arka plan rengi soft siyah */
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .memory-container {
+            margin: 20px;
+            text-align: center; /* Resim ve açıklamaları ortala */
+        }
+        .memory-image {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        .memory-description {
+            margin-top: 10px;
+            font-size: 16px; /* Açıklamaların yazı boyutunu büyüt */
+            font-weight: bold; /* Açıklamaları kalın yap */
+        }
+         .redirect-button {
+            margin-top: 10px;
+            background-color: #7b1fa2; /* Mor buton rengi */
+            color: #fff; /* Yazı rengi beyaz */
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anılarımız</h1>
+    </header>
+    <main>
+        <div class="memory-container">
+            <img class="memory-image" src="güven.jpg" alt="Anımız 1">
+            <p class="memory-description">Şu dediğin benjm için ne kadar önemli biliyoon</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="ilksöz.jpg" alt="Anımız 2">
+            <p class="memory-description">Bana verdiğin ilk öpme sözüüü</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="kızgınbebis.jpg" alt="Anımız 3">
+            <p class="memory-description">😡</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="snap.jpg" alt="Anımız 4">
+            <p class="memory-description">Burda bana ilk defa hayatımm demiştiiinn</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="valo.jpg" alt="Anımız 5">
+            <p class="memory-description">Bunu senle konuşmuyoken yapmıştımm</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="wparka.jpg" alt="Anımız 6">
+            <p class="memory-description">Beni  wp arka planına koymuştuunn</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="faw.jpg" alt="Anımız 7">
+            <p class="memory-description">Bu benim faw ztn biliyon</p>
+        </div>
+        <div class="memory-container">
+            <img class="memory-image" src="bildirim.jpg" alt="Anımız 8">
+            <p class="memory-description">Bunu hatırladın mııı</p>
+        </div>
+        <!-- İstediğiniz kadar anı ekleyebilirsiniz -->
+    </main>
+    
+      <div style="display: flex; justify-content: center;">
+        <button class="redirect-button" onclick="redirectToAnotherPage()">Tıkla Bebüsümmm</button>
+    </div>
+    
+     <script>
+        function blowCandle() {
+            const candleFlame = document.querySelector(".flame");
+            candleFlame.style.animation = "none";
+            candleFlame.style.backgroundColor = "transparent";
+        }
+
+        function redirectToAnotherPage() {
+            // Yeni sayfaya yönlendirmek için aşağıdaki satırı kullanabilirsiniz.
+            window.location.href = "kitap.html"; // Yönlendirilecek sayfanın dosya adını buraya yazın.
+        }
+    </script>
+</body>
+</html>

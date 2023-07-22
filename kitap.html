@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kitap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Arka plan rengi soft siyah */
+            color: #fff; /* Yazı rengi beyaz */
+            line-height: 1.6; /* Yazılar arası boşluk ayarı */
+        }
+        header {
+            background-color: #1a1a1a; /* Arka plan rengi soft siyah */
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .video-container {
+            margin-top: 20px;
+            width: 640px; /* Video genişliği */
+            height: 360px; /* Video yüksekliği */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .video {
+            width: 100%;
+            height: 100%;
+        }
+        .video-description {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .note {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>bizim 3 sayfalık kitabımız</h1>
+    </header>
+    <main>
+        <div class="video-container">
+            <!-- Video dosyasının yolu ve adını buraya ekleyin -->
+            <video class="video" controls>
+                <source src="kitap.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+        </div>
+        <div class="video-description">
+            <p>yaw bizim kitabımızı yapam dedim bazı şeyler ters olmuş ama olsuun</p>
+        </div>
+    </main>
+    <div class="note">
+        <p>Seni seviyorum bebişim</p>
+    </div>
+</body>
+</html>
